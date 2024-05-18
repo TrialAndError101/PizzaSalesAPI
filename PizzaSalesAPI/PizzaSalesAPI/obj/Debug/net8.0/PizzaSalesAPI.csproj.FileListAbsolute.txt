@@ -37,3 +37,5 @@ D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.OData.Edm.dll
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.OData.ModelBuilder.dll
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.Spatial.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll

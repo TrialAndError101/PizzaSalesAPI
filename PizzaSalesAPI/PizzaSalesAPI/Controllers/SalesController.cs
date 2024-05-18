@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
+using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.OData.ModelBuilder;
 using PizzaSalesAPI.Models;
 using PizzaSalesAPI.Services.Interfaces;
@@ -7,9 +8,9 @@ using PizzaSalesAPI.Services.Interfaces;
 namespace PizzaSalesAPI.Controllers
 {
 
-    [Route("api/[controller]")]
-    [ApiController]
-    public class SalesController : ControllerBase
+    [Route("odata/[controller]")]
+    //[ApiController] //deleted to try odata route
+    public class SalesController : ODataController
     {
         private readonly ICSCService _cSCVService;
 
@@ -23,14 +24,14 @@ namespace PizzaSalesAPI.Controllers
         // https://localhost:<port_here>/api/Patient
 
         [HttpGet]
-        [EnableQuery(PageSize = 10000)]
-        public async Task<ActionResult<IQueryable<SalesModel>>> GetAllPatient([FromBody] RequestBodyModel requestBody)
+        [EnableQuery(PageSize = 1000)]
+        public async Task<ActionResult<SalesEntity>> GetAllPatient([FromBody] RequestBodyModel requestBody)
         {
             Console.WriteLine("C# HTTP trigger AddPatients processed a request.");
 
             try
             {
-                List<SalesModel> result = await _cSCVService.readCSVSales(requestBody.CSVPath);
+                List<SalesEntity> result = await _cSCVService.readCSVSales(requestBody.CSVPath);
 
                 if (result != null)
                 {

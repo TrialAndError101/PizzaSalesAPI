@@ -7,9 +7,9 @@ namespace PizzaSalesAPI.Services
     {
         public CSVService() { }
 
-        public async Task<List<SalesModel>> readCSVSales(string csvPath)
+        public async Task<List<SalesEntity>> readCSVSales(string csvPath)
         {
-            List<SalesModel> salesModels = new List<SalesModel>();
+            List<SalesEntity> salesModels = new List<SalesEntity>();
             using (var reader = new StreamReader(csvPath))
             {
 
@@ -22,12 +22,12 @@ namespace PizzaSalesAPI.Services
                     {
                         continue;
                     }
-                    SalesModel salesModel = new SalesModel()
+                    SalesEntity salesModel = new SalesEntity()
                     {
                         order_details_id = Convert.ToInt32(values[0]),
-                        order_id = Convert.ToInt32(values[0]),
-                        pizza_id = values[0],
-                        quantity = Convert.ToInt32(values[0])
+                        order_id = Convert.ToInt32(values[1]),
+                        pizza_id = values[2],
+                        quantity = Convert.ToInt32(values[3])
                     };
                     salesModels.Add(salesModel);
                 }
