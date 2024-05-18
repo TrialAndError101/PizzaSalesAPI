@@ -39,3 +39,7 @@ D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.Spatial.dll
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\PizzaSalesAPI\PizzaSalesAPI\PizzaSalesAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll

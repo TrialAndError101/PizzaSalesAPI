@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BbCcYI4bK3S76RyEbyIRfALWxYr9hw2z03xyHvKPE1QDaRLgb2VM2oazKzodCumARRsHRvk2ZGc8kxWMNVx5xw==",
+  "dgSpecHash": "WhE5wyTm4H9xSFoQcsqTPC6VpJJWYYGHi/uOAXCnGLgH2n9iGUjgmNLhSBnQW/fyZKzKgy9ecUL7Vy7bq2jpUw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\PizzaSalesAPI\\PizzaSalesAPI\\PizzaSalesAPI\\PizzaSalesAPI.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,11 @@
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.runtime.caching\\8.0.0\\system.runtime.caching.8.0.0.nupkg.sha512",
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\JohnPhilip\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512"
   ],
